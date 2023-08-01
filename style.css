@@ -1,0 +1,524 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.resume>div {
+    min-height: 100vh;
+}
+
+.head {
+    margin-left: 100px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.about>img {
+    width: 130px;
+    border-radius: 50%;
+}
+
+.about>p {
+    width: 40%;
+    text-align: justify;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact>h2 {
+    text-align: center;
+}
+
+button {
+    background-color: #11CDD4;
+    border-radius: 10%;
+    border: 0px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+button>a {
+    color: white;
+    text-decoration: none;
+}
+
+p,
+li {
+    color: #40514E;
+}
+
+/* Education */
+.card {
+    max-width: 200px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    min-height: 180px;
+    transition: transform 0.2s, background-color 0.2s;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+.qualification {
+    margin-bottom: 10px;
+}
+
+.school {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: #888;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.card:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
+
+/* Projects */
+.pro {
+    width: 60%;
+    display: flex;
+    flex-shrink: 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 0 auto;
+}
+
+.project-card {
+    width: 25%;
+    height: 100px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, background-color 0.2s;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    background-color: #f0f0f0;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #888;
+    margin-bottom: 5px;
+}
+
+.details {
+    margin-bottom: 15px;
+}
+
+.name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #40514E;
+}
+
+.description {
+    color: #888;
+}
+
+.link-btn {
+    display: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: opacity 0.2s;
+}
+
+.project-card:hover .link-btn {
+    display: block;
+}
+
+/* Contact */
+.contact {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.head {
+    padding: 20px;
+    text-align: center;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact-info-item {
+    flex-basis: calc(50% - 20px);
+    margin-bottom: 20px;
+}
+
+.footer {
+    color: wheat;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 218px;
+    margin: 0 20px; /* Add margins on the right and left sides */
+    background-color: #333;
+}
+
+.social-links {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: flex-start;
+}
+
+.social-link {
+    color: white;
+    text-decoration: none;
+
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.social-link svg {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+}
+
+.footer p {
+    color: white;
+    margin: 0;
+    padding-right: 100px;
+}
+
+/* Styling */
+/* Colors */
+/* h1
+h2
+h3
+p */
+
+.bg {
+    background-color: #E3FDFD;
+}
+
+.footer-bg {
+    background-color: #71C9CE;
+}
+
+.h2 {
+    color: #A6E3E9;
+}
+
+.h3 {
+    color: #71C9CE;
+}
+
+.pp {
+    color: #40514E;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+    /* Mobile-specific styles here */
+    .resume {
+        padding: 10px;
+    }
+
+    .about>img {
+        width: 100px;
+    }
+
+    .about>p {
+        width: 100%;
+    }
+
+    .cards,
+    .pro {
+        width: 100%;
+        gap: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    /* Tablet-specific styles here */
+    .resume {
+        padding: 20px;
+    }
+
+    .cards,
+    .pro {
+        width: 100%;
+        gap: 50px;
+    }
+}
+
+@media (min-width: 1024px) {
+    /* Laptop/desktop-specific styles here */
+}
+
+/* navbar */
+/* Navbar Styles */
+.navbar {
+    background-color: #71C9CE;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed; /* Make the navbar sticky */
+    top: 0; /* Stick it to the top of the screen */
+    left: 0;
+    right: 0;
+    z-index: 100; /* Ensure it appears above other elements */
+}
+
+.menu-icon {
+display: none;
+cursor: pointer;
+font-size: 24px;
+}
+
+.menu-icon .bar {
+display: block;
+width: 25px;
+height: 3px;
+background-color: #fff;
+margin: 5px auto;
+transition: background-color 0.3s ease;
+}
+
+.menu {
+display: flex;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+.menu li {
+margin-right: 20px;
+}
+
+.menu a {
+color: #fff;
+text-decoration: none;
+font-size: 16px;
+transition: color 0.3s ease;
+}
+
+.menu a:hover {
+color: #fff;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+.menu {
+display: none;
+flex-direction: column;
+position: absolute;
+top: 100%;
+left: 0;
+right: 0;
+background-color: #333;
+padding: 20px;
+}
+
+.menu li {
+margin-right: 0;
+margin-bottom: 10px;
+}
+
+.navbar-toggle {
+display: block;
+}
+
+.menu-icon {
+display: block;
+}
+
+.menu-icon .bar {
+background-color: #fff;
+}
+
+.navbar-toggle:checked ~ .menu {
+display: flex;
+}
+}
+
+/* line animation */
+.clickable-text {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: #333;
+    text-decoration: none;
+}
+
+.clickable-text::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: width 0.3s ease;
+}
+
+/* Apply the hover animation */
+
+.clickable-text:hover::before {
+    width: 100%;
+}
+
+/* Apply the click animation */
+
+.clickable-text.clicked::before {
+    width: 100%;
+    transition: none; /* Disable the transition during click animation */
+    animation: underlineAnimation 1s linear;
+}
+
+/* Define the keyframes for the click animation */
+@keyframes underlineAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+/* text typing animation */
+
+.typing-text {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: px solid #71C9CE; /* Add a cursor effect */
+    animation: typingAnimation 1s steps(40, end) 1;
+}
+
+@keyframes typingAnimation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 65%;
+    }
+} 
+
+
+.inline{
+    display: flex;
+}
+
+/* ----------------------------------------------- */
+
+.fade-in-text {
+opacity: 0; /* Start with 0 opacity (invisible) */
+animation: fadeInAnimation 1s 1s forwards; /* Animation duration of 1 second, starts after 1 second, and holds the final state */
+}
+
+@keyframes fadeInAnimation {
+to {
+    opacity: 1; /* Fade to full opacity (visible) */
+}
+}
+
+/* -------------------------------------------------------- */
+
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.animate-on-scroll.animate {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* ------------------------------------------------------------- */
+
+.pt{ 
+    padding-top: 60px;
+}

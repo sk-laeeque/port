@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Laeeque Portfolio</title>
+</head>
+<body>
+    <div class="resume ">
+
+        <!-- navbar -->
+        <nav class="navbar">
+            <input type="checkbox" id="navbar-toggle" class="navbar-toggle" style="visibility: hidden;">
+            <label for="navbar-toggle" class="menu-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </label>
+            <ul class="menu">
+                <li><a href="#home" class="clickable-text" onclick="this.classList.add('clicked'); return false;">Home</a></li>
+                <li><a href="#about" class="clickable-text" onclick="this.classList.add('clicked'); return false;">About Me</a></li>
+                <li><a href="#education" class="clickable-text" onclick="this.classList.add('clicked'); return false;">Education</a></li>
+                <li><a href="#projects" class="clickable-text" onclick="this.classList.add('clicked'); return false;">Projects</a></li>
+                <li><a href="#contact" class="clickable-text" onclick="this.classList.add('clicked'); return false;">Contact Me</a></li>
+            </ul>
+        </nav>
+        
+
+        <!-- My brief introduction here -->
+        <div class="intro bg" id="home"> 
+            <h2 class="inline" style="color: #66BFBF; font-family: 'Sacramento', cursive; font-size: 90px; margin-bottom: 0px;"><div>I'm&nbsp;</div> <div class="typing-text">Laeeque</div></h2>
+            <h3 style="color: #66BFBF; font-family: 'Montserrat', sans-serif; margin-top: 0px; font-size: 30px;" class="fade-in-text">a <u>pro</u>grammer</h3>
+
+        </div>
+
+        <!-- About Me --> 
+        <div class="about animate-on-scroll pt" id="about">
+            <img src="./laeeque passport photo.png" alt="">
+            <br> 
+            <h2 class="h2">Hello</h2> 
+            <p>Welcome to my portfolio website! I am <b>Shaikh Laeeque</b> a passionate web developer with a flair
+                for crafting captivating online experiences. Here, you'll find a showcase of my innovative projects and a glimpse into my skills in front-end and back-end development. Let's embark on a digital journey together!</p>
+        </div>
+
+        <!-- My Education -->
+        <div class="education animate-on-scroll pt" id="education">
+            <h2 class="h2" style="text-align: center;">Education</h2>
+
+            <div class="cards h3">
+                <div class="card h3">
+                    <div class="title">Master of Computer Application</div>
+                    <div class="details">
+                        <div class="qualification">
+                            <div class="school">Govt. College of Engineering, Aurangabad</div>
+                            <div class="date pp">2022-24</div>
+                            <div class="subtitle pp">CGPA : 8.8</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="title">Bachelor of Science</div>
+                    <div class="details">
+                        <div class="qualification">
+                            <div class="school">Sir Syyed College, Aurangabad</div>
+                            <div class="date pp">2019-22</div>
+                            <div class="subtitle pp">Percentage: 72%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="title">12th</div>
+                    <div class="details">
+                        <div class="qualification">
+                            <div class="school">Maulana Azad College, Aurangabad</div>
+                            <div class="date pp">2017-19</div>
+                            <div class="subtitle pp">Percentage : 64%</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <div class="title">10th</div>
+                    <div class="details">
+                        <div class="qualification">
+                            <div class="school">Sarosh Urdu High School, Aurangabad</div>
+                            <div class="date pp">2016-17</div>
+                            <div class="subtitle pp">Percentage : 77%</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- My Skills -->
+
+        <!-- My Projects -->
+        <div class="projects animate-on-scroll pt" id="projects">
+            <h2 class="head h2">Projects</h2>
+            <div class="pro">
+                <div class="project-card">
+                    <div class="title h3">Project 1</div>
+                    <div class="details">
+                        <div class="name">HTML Portfolio Website</div>
+                        <a class="link-btn" href="https://sk-laeeque.github.io/portfolio" target="_blank">Go to Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="title h3">Project 2</div>
+                    <div class="details">
+                        <div class="name">Move It</div>
+                        <a class="link-btn" href="https://sk-laeeque.github.io/moveit" target="_blank">Go to Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="title h3">Project 3</div>
+                    <div class="details">
+                        <div class="name">TinDog</div>
+                        <a class="link-btn" href="https://sk-laeeque.github.io/tindog" target="_blank">Go to Project</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="title h3">Project 4</div>
+                    <div class="details">
+                        <div class="name">More to come...</div>
+                        <a class="link-btn" href="..." target="_blank">Go to Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Me -->
+        <div class="contact animate-on-scroll pt" id="contact">
+            <header class="head">
+                <h2 class="h2">Contact Me</h2>
+            </header>
+
+            <div class="container">
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <h3 class="h3">Email</h3>
+                        <p class="pp">iamlaeeque@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3 class="h3">Phone</h3>
+                        <p class="pp">+91 - 9284119270</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3 class="h3">Address</h3>
+                        <p class="pp">City Chowk, Aurangabad, India</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="footer footer-bg">
+                <div class="social-links">
+                    <a class="social-link" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="10px" height="10px" viewBox="0 0 512 512">
+                            <!-- Your Twitter icon SVG path goes here -->
+                        </svg>
+                        Twitter
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!-- Your Facebook icon SVG path goes here -->
+                        </svg> 
+                        Facebook
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!-- Your Instagram icon SVG path goes here -->
+                        </svg>
+                        Instagram
+                    </a>
+                    <a class="social-link" href="#">
+                        <svg width="30" height="30" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <!-- Your LinkedIn icon SVG path goes here -->
+                        </svg>
+                        LinkedIn
+                    </a>
+                </div>
+                <div>
+                    <p>&copy; 2023 ShaikhLaeeque. All rights reserved.</p>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+</body>
+
+<script>
+    // Function to add the animation class when element is in viewport
+    function animateOnScroll(entries, observer) {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('animate');
+                observer.unobserve(entry.target);
+            }
+        });
+    }
+
+    // Options for the Intersection Observer
+    const options = {
+        threshold: 0.5 // Percentage of element visibility needed to trigger the animation
+    };
+
+    // Create the Intersection Observer
+    const observer = new IntersectionObserver(animateOnScroll, options);
+
+    // Select all elements with the class 'animate-on-scroll'
+    const animateElements = document.querySelectorAll('.animate-on-scroll');
+
+    // Start observing each element
+    animateElements.forEach(element => {
+        observer.observe(element);
+    });
+</script>
+
+</html>
